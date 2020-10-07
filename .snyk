@@ -1,0 +1,214 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-10-07T14:22:02.321Z'
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - github > https-proxy-agent > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nsp-advisories-api > request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - github > https-proxy-agent > agent-base > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > node-gyp > request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-10-07T14:22:02.321Z'
+  'npm:hoek:20180212':
+    - node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-07T14:22:02.321Z'
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - react-redux > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - redux > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - david > async > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-generator > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-traverse > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-template > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-register > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-10-07T14:22:02.321Z'
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nsp-advisories-api > request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+    - node-sass > node-gyp > request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-10-07T14:22:02.321Z'
+  'npm:tough-cookie:20170905':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-10-07T14:22:02.321Z'
+    - postcss-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-10-07T14:22:02.321Z'
+    - watchify > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-10-07T14:22:02.321Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-10-07T14:22:02.321Z'
+  'npm:tunnel-agent:20170305':
+    - node-sass > node-gyp > request > tunnel-agent:
+        patched: '2020-10-07T14:22:02.321Z'
