@@ -80,7 +80,7 @@
     "moment": "^2.20.1",
     "node-sass": "^4.13.1",
     "normalize-scss": "^7.0.0",
-    "npm": "^4.1.2",
+    "npm": "^7.0.0",
     "npm-run-all": "^4.0.2",
     "nsp-advisories-api": "^2.0.2",
     "once": "^1.4.0",
