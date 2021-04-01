@@ -106,7 +106,7 @@
     "uglifyify": "^5.0.2",
     "utils-copy-error": "^1.0.1",
     "xml2js": "^0.4.16",
-    "snyk": "^1.474.0"
+    "snyk": "^1.518.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
